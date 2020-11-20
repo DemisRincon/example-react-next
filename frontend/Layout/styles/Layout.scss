@@ -1,0 +1,58 @@
+.Main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .Header {
+        height: 8%;
+
+        display: flex;
+        .LogoContainer {
+            background-color: yellowgreen;
+            height: 100%;
+            width: 90%;
+            img {
+                height: 100%;
+            }
+        }
+        .UserContainer {
+            background-color: blue;
+            height: 100%;
+            width: 10%;
+        }
+    }
+    .Body {
+        height: 92%;
+        background-color: red;
+        display: flex;
+        .NavBar {
+            background-color: royalblue;
+            height: 100%;
+            width: 2%;
+        }
+        .Container {
+            height: 100%;
+            width: 98%;
+            background-color: salmon;
+            .HeaderContainer {
+                height: 4%;
+                width: 100%;
+                background-color: seagreen;
+            }
+            .BodyContainer {
+                height: 96%;
+                width: 100%;
+                background-color: white;
+            }
+        }
+        .NavBarOpen {
+            background-color: yellow;
+            width: 10%;
+        }
+        .ContainerOpen {
+            width: 90;
+            background-color: red;
+        }
+    }
+}
